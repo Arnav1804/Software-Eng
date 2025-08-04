@@ -3,8 +3,8 @@ b=-3
 c=2
 d=b**2-4*a*c
 if d>0:
-  root2=(-b+d**0.5)/(2*a)
-  root1=(-b-d**0.5)/(2*a)
-  print("Roots are:",root2,"and",root1)
+  root1=(-b+d**0.5)/(2*a)
+  root2=(-b-d**0.5)/(2*a)
+  print("The roots are:",root1,"and",root2)
  else:
-  print("No rral roots")
+  print("No real roots")
